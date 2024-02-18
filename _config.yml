@@ -1,0 +1,19 @@
+title: "DTOGen"
+description: "An experimental library to enable creating automatated tests for correcting Java programming exams"
+google_analytics:
+show_downloads: true
+theme: jekyll-theme-architect
+encoding: utf-8
+
+exclude:
+  - CONTRIBUTING.md
+  - .github
+  - .gitignore
+
+plugins:
+  - jekyll-mentions
+  - jemoji
+
+webrick:
+  headers:
+    keywords: ""
