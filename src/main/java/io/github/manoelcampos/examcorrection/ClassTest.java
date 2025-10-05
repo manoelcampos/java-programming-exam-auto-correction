@@ -2,13 +2,13 @@ package io.github.manoelcampos.examcorrection;
 
 import com.tngtech.archunit.core.domain.JavaMethod;
 import com.tngtech.archunit.core.domain.JavaModifier;
-import lombok.extern.java.Log;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -17,8 +17,8 @@ import static org.hamcrest.Matchers.notNullValue;
 /**
  * @author Manoel Campos
  */
-@Log
 public abstract class ClassTest extends AbstractTest {
+    private static final Logger log = java.util.logging.Logger.getLogger(ClassTest.class.getName());
 
     public ClassTest(final Map<String, String> expectedFieldsMap) {
         super(expectedFieldsMap);
