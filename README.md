@@ -1,4 +1,4 @@
-# Java Programming Exam Auto Correction
+# Java Programming Exam Auto Correction [![Maven Central](https://img.shields.io/maven-central/v/io.github.manoelcampos/programming-exam-auto-correction.svg?label=Maven%20Central)](https://central.sonatype.com/search?q=programming-exam-auto-correction&namespace=io.github.manoelcampos) 
 
 An experimental library to enable creating automatated tests for correcting Java programming exams using [ArchUnit](http://archunit.org).
 
